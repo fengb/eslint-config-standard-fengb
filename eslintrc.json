@@ -1,0 +1,8 @@
+{
+  "extends": "standard",
+  "rules": {
+    "comma-dangle": [2, "always-multiline"],
+    "no-multi-spaces": 0,
+    "key-spacing": [2, { "beforeColon": false, "afterColon": true, "mode": "minimum" }]
+  }
+}
