@@ -2,6 +2,7 @@
   "extends": "standard",
   "rules": {
     "comma-dangle": [2, "always-multiline"],
+    "no-unused-vars": [2, { "args": "all", "varsIgnorePattern": "^_.+", "argsIgnorePattern": "^_.+" }],
     "no-multi-spaces": 0,
     "key-spacing": [2, { "beforeColon": false, "afterColon": true, "mode": "minimum" }]
   }
